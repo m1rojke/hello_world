@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  height: 100vh;
+  width: 100%;
+  background-color: #f2f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  height: 35%;
+  width: 50%;
+  background-color: white;
+  text-align: center;
+  border-radius: 50px;
+}
+
+h1 {
+  font-size: 150px;
+  user-select: none;
+}
