@@ -18,9 +18,11 @@
   background-color: white;
   text-align: center;
   border-radius: 60px;
+  display: flex;
+  align-items: center;
 }
 
 h1 {
-  font-size: 150px;
+  font-size: 8vw;
   user-select: none;
 }
