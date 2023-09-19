@@ -1,5 +1,7 @@
 const text = document.getElementById("text");
 const title = document.querySelector(".title");
+const page = document.querySelector(".page");
+
 let intervalId;
 
 function setter() {
@@ -32,5 +34,10 @@ function changeColor() {
   }
 }
 
-text.addEventListener("click", setter);
-text.addEventListener("dblclick", offSetter);
+text.addEventListener("mouseover", () => {
+  if(!intervalId) {
+    setter();
+  } else if (intervalId) {
+    offSetter();
+  }
+});
